@@ -1,4 +1,4 @@
-function displayType(character) {
-    var characterType = character.getAttribute("data-character-type");
-    alert(characterType + " is in the " + character.innerHTML + " conference!");
+function display(conference) {
+    var conferenceType = conference.getAttribute("data-college-type");
+    alert(conferenceType + " is in the " + conference.innerHTML + " conference");
 }
